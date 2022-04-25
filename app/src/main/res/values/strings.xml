@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FamilyDB</string>
+    <string name="please_enter_the_details">Enter the details</string>
+    <string name="name">Full Name</string>
+    <string name="contact">Contact Number</string>
+    <string name="email">Email</string>
+    <string name="insert">Insert</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="view">view</string>
+</resources>

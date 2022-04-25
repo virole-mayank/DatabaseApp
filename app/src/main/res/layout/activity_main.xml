@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/please_enter_the_details"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:hint="@string/contact"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="20dp"
+        android:hint="@string/date_of_birth"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert"
+        android:textSize="24sp"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="60dp"
+        />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnInsert"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnUpdate"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnDelete"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>
